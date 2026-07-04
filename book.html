@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book a Free Consultation | JonLexx Construction | Tyler, TX</title>
+  <meta name="description" content="Book a free consultation with JonLexx Construction. Concrete, remodels, drainage, renovations, and home building across Tyler and East Texas.">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..600&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="book">
+
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="nav-brand" href="index.html">
+        <img src="assets/logo.png" alt="JonLexx Construction logo">
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html" data-nav="home">Home</a></li>
+        <li><a href="services.html" data-nav="services">Services</a></li>
+        <li><a href="portfolio.html" data-nav="portfolio">Portfolio</a></li>
+        <li><a href="about.html" data-nav="about">About</a></li>
+        <li class="nav-cta"><a class="btn btn-gold" href="book.html">Book a Consultation</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="page-hero" style="background-image: url('assets/hero-book.jpg');">
+    <div class="hero-inner">
+      <span class="eyebrow" style="color: var(--gold);">Book Online</span>
+      <h1>Book your free consultation</h1>
+      <p>Tell us about your project. We will reach out, walk it with you, and bring options that fit your budget.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container card">
+      <div class="book-grid">
+        <div>
+          <span class="eyebrow">Consultation Request</span>
+          <h2>Let's talk about your project</h2>
+          <p style="margin-bottom: 30px;">Consultations are 100% free with zero pressure. Fill this out and we will get back to you fast.</p>
+          <form action="https://formspree.io/f/YOUR_FORMSPREE_ENDPOINT_HERE" method="POST" class="form-grid" id="consult-form">
+            <input type="hidden" name="_next" value="thank-you.html">
+            <input type="hidden" name="_subject" value="New consultation request from jonlexxconstruction site">
+            <div class="form-field">
+              <label for="name">Full Name *</label>
+              <input type="text" id="name" name="name" required autocomplete="name">
+            </div>
+            <div class="form-field">
+              <label for="phone">Phone *</label>
+              <input type="tel" id="phone" name="phone" required autocomplete="tel">
+            </div>
+            <div class="form-field full">
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" required autocomplete="email">
+            </div>
+            <div class="form-field">
+              <label for="service">Service Needed</label>
+              <select id="service" name="service">
+                <option value="">Select a service</option>
+                <option>Concrete Work</option>
+                <option>Drainage / Landscape / Retaining Walls</option>
+                <option>Shower Remodel</option>
+                <option>Bathtub Remodel</option>
+                <option>Full Renovation (Exterior / Interior)</option>
+                <option>Home Building / Shops / Metal Buildings</option>
+                <option>Something Else</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="city">City / Area</label>
+              <input type="text" id="city" name="city" placeholder="Tyler, Whitehouse, Lindale...">
+            </div>
+            <div class="form-field full">
+              <label for="details">Project Details *</label>
+              <textarea id="details" name="details" required placeholder="Tell us what you want to build, remodel, or fix."></textarea>
+            </div>
+            <div class="form-field full">
+              <button type="submit" class="btn btn-gold">Request My Free Consultation</button>
+            </div>
+          </form>
+        </div>
+        <aside class="book-aside">
+          <h3>Reach us directly</h3>
+          <div class="aside-block">
+            <span class="aside-label">Phone</span>
+            <a href="tel:9033722102">(903) 372-2102</a>
+          </div>
+          <div class="aside-block">
+            <span class="aside-label">Email</span>
+            <a href="mailto:jonlexx.construction@gmail.com">jonlexx.construction@gmail.com</a>
+          </div>
+          <div class="aside-block">
+            <span class="aside-label">Hours</span>
+            Monday - Saturday: 7:00 AM to 6:00 PM<br>
+            Sunday: Closed
+          </div>
+          <div class="aside-block">
+            <span class="aside-label">Service Area</span>
+            Tyler, Smith County, and surrounding East Texas communities.
+          </div>
+          <div class="aside-block">
+            <span class="aside-label">Good to Know</span>
+            Consultations are always free. You get options and pricing breakdowns, never pressure.
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="assets/logo.png" alt="JonLexx Construction logo">
+        <p class="footer-tagline">Make It Happen</p>
+        <p>Construction specialists serving Tyler and East Texas. We do not just build on site, we build trust.</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:9033722102">(903) 372-2102</a></li>
+          <li><a href="mailto:jonlexx.construction@gmail.com">jonlexx.construction@gmail.com</a></li>
+          <li>Smith County, TX</li>
+          <li>Mon-Sat: 7:00 AM to 6:00 PM</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html">Concrete Work</a></li>
+          <li><a href="services.html">Drainage &amp; Retaining Walls</a></li>
+          <li><a href="services.html">Shower &amp; Bathtub Remodels</a></li>
+          <li><a href="services.html">Full Renovations</a></li>
+          <li><a href="services.html">Homes, Shops &amp; Metal Buildings</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Navigate</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="book.html">Book a Consultation</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-bottom-inner">
+        <span>&copy; 2026 JonLexx Construction LLC. All rights reserved.</span>
+        <div class="footer-social">
+          <!-- Swap href for the real JonLexx Construction LLC Facebook page URL -->
+          <a href="#" aria-label="JonLexx Construction on Facebook" target="_blank" rel="noopener">f</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
